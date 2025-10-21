@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="centered">
+        <h1>CONSULTA DE CEP</h1>
+        <form onsubmit="consultarCEP(event)">
+            <label for="input_cep">CEP:</label>
+            <input type="number" id="input_cep" required>
+            <br><br>
+            <input type="submit" value="Consultar">
+        </form>
+        <div id="info_div" style="display: none;">
+            <p id="info">INFORMAÇÕES AQUI</p>
+        </div>
+    </div>
+</body>
+</html>
