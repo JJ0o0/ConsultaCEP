@@ -60,7 +60,7 @@ input[type="number"] {
 }
 
 .background {
-    background-image: url("images/bg.png");
+    background-image: url("../images/bg.png");
 
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -96,3 +96,4 @@ input[type="number"] {
     text-align: center;
 
 }
+
